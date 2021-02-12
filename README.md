@@ -29,7 +29,6 @@ The steps performed on each original image are described below:
   - public_test_labels.npy: images tensor for test
 
 In light of the procedure described above, particular attention should be paid to the structure of the input tensors:
-
-odd indices `[2i + 1 for i in range(0,len(tensor)/2)]` will refer to abnormality patches
-previous even indices `[2i for i in range(0,len(tensor)/2)]` will refer to respective baseline patches
+- odd indices `[2i + 1 for i in range(0,len(tensor)/2)]` will refer to abnormality patches
+- previous even indices `[2i for i in range(0,len(tensor)/2)]` will refer to respective baseline patches
 You will be able to load the arrays using `numpy load` function.
