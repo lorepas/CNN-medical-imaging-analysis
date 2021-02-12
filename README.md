@@ -46,4 +46,4 @@ The project is structured with the following files in .ipynb format because perf
     - [BaselineCNN.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/BaselineCNN.ipynb): in this notebook we perform the classification between mass and calcification but considering also the baseline patches. For this reason we have used a **Siamese Network**.
 4. TASK 4: Perform the classification task using an Ensamble method:
     - [Ensamble1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Ensamble1.ipynb): in this notebook we perform the classification between mass and calcification using an **Ensamble method**.
-    - [Ensamble2.ipynb]((https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Ensamble2.ipynb): in this notebook we perform the classification between benign and malignant using an **Ensamble method**.
+    - [Ensamble2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Ensamble2.ipynb): in this notebook we perform the classification between benign and malignant using an **Ensamble method**.
