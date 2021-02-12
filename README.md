@@ -22,7 +22,7 @@ The steps performed on each original image are described below:
   - 2: Mass, malignant
   - 3: Calcification, benign
   - 4: Calcification, malignant
- - images of baseline patch and abnormality patch, and their related labels, have been added to distinct numpy arrays for images and labels.
+- images of baseline patch and abnormality patch, and their related labels, have been added to distinct numpy arrays for images and labels.
   - train_tensor.npy: images tensor for training
   - train_labels.npy: labels tensor for training
   - public_test_tensor.npy: images tensor for test
