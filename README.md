@@ -37,5 +37,10 @@ You will be able to load the arrays using `numpy load` function.
 The project is structured with the following files in .ipynb format because performed on Colab notebooks:
 
 1. TASK 1: Perform the classification building a CNN from scratch:
-    - [Scratch_CNN_2.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.1.ipynb) In this notebook we perform the classification between mass and calcification.
-    - [Scratch_CNN_2.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.2.ipynb) In this notebook we perform the classification between benign and mailignant.
+    - [Scratch_CNN_2.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.1.ipynb): in this notebook we perform the classification between mass and calcification.
+    - [Scratch_CNN_2.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.2.ipynb): in this notebook we perform the classification between benign and mailignant.
+2. TASK 2: Perform the classification using a pre-trained network:
+    - [PreTrained_CNN_3.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/PreTrained_CNN_3.1.ipynb): in this notebook we perform the classification between mass and calcification.
+    - [PreTrained_CNN_3.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/PreTrained_CNN_3.2.ipynb): in this notebook we perform the classification between benign and mailignant.
+3. TASK 3: Perform the classification to distinguish the abnormality considering also the baseline patches:
+    - [BaselineCNN.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/BaselineCNN.ipynb): in this notebook we perform the classification between mass and calcification but considering also the baseline patches. For this reason we have used a **Siamese Network**.
