@@ -1,8 +1,8 @@
-# Convolutional Neural Network for Medical Imaging Analysis - Abnormality detection in mammography 
+# **Convolutional Neural Network for Medical Imaging Analysis - Abnormality detection in mammography** 
 
 This project has the aim to detect abnormality in mammography.
 
-## Dataset
+## **Dataset**
 
 The dataset we will focus on is CBIS DDSM: Curated Breast Imaging Subset of Digital Database for Screening Mammography. In the images are present two types of abnormality: mass or calcification. Then we can distinguish between benign or malignant. For this reason we have the following classes:
 - Mass, Benign (with or without callback)
@@ -32,3 +32,10 @@ In light of the procedure described above, particular attention should be paid t
 - odd indices `[2i + 1 for i in range(0,len(tensor)/2)]` will refer to abnormality patches
 - previous even indices `[2i for i in range(0,len(tensor)/2)]` will refer to respective baseline patches
 You will be able to load the arrays using `numpy load` function.
+
+## **Project structure**
+The project is structured with the following files in .ipynb format because performed on Colab notebooks:
+
+1. TASK 1: Perform the classification building a CNN from scratch:
+    1.1 [Scratch_CNN_2.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.1.ipynb)
+    1.2 [Scratch_CNN_2.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.2.ipynb)
