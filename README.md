@@ -37,5 +37,5 @@ You will be able to load the arrays using `numpy load` function.
 The project is structured with the following files in .ipynb format because performed on Colab notebooks:
 
 1. TASK 1: Perform the classification building a CNN from scratch:
-    1.1 [Scratch_CNN_2.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.1.ipynb)
-    1.2 [Scratch_CNN_2.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.2.ipynb)
+    - [Scratch_CNN_2.1.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.1.ipynb)
+    - [Scratch_CNN_2.2.ipynb](https://github.com/lorepas/CNN_Medical_Imaging_Analysis/blob/main/Scratch_CNN_2.2.ipynb)
